@@ -1,3 +1,10 @@
+var typed=new Typed(".typing",{
+    strings:["","Web Designer","Web Developer","Full-Stack Developer"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+})
+
 const nav=document.querySelector(".nav");
 
  navList=nav.querySelectorAll("li");
